@@ -96,7 +96,7 @@ export default function Home() {
               mt={2}
               fontSize={2}
               fontWeight={300}
-              style={{ fontStylex: "italic" }}
+              style={{ fontStyle: "italic" }}
             >
               <ul style={{ listStyle: "none" }}>
                 <Quote>

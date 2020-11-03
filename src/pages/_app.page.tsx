@@ -8,7 +8,6 @@ import Header from "../components/Header";
 
 import styled from "@emotion/styled";
 import { width, space, color } from "styled-system";
-import Head from "next/head";
 
 const Footer = styled("footer")(space, width, color);
 
@@ -16,6 +15,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme}>
       <>
+        <Header siteTitle={"Your developer mentor"} />
         <div id="wrapper">
           <main style={{ flex: 1 }}>
             <Component {...pageProps} />
